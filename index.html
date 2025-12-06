@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGI Golf - Next-Gen Impact Golf</title>
+    <meta name="description" content="Next-Gen Impact Golf - Revolutionary golf technology and performance analytics featuring world-class golfers">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Background Grid Pattern -->
+    <div class="grid-background"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">NGI</span>
+                <span class="logo-accent">GOLF</span>
+            </div>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link">Technology</a>
+                <a href="#golfers" class="nav-link">Athletes</a>
+                <a href="#about" class="nav-link">Impact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <img src="imgs/rory_swing_2.gif" alt="Rory McIlroy Golf Swing" class="hero-gif">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">NEXT-GEN</span>
+                <span class="title-line title-accent">IMPACT</span>
+            </h1>
+            <p class="hero-subtitle">Revolutionary golf technology meets elite performance</p>
+            <button class="cta-button">
+                <span>Explore Technology</span>
+                <div class="button-glow"></div>
+            </button>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-number">188</div>
+                <div class="stat-label">MPH Ball Speed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">+1.2°</div>
+                <div class="stat-label">Club Path</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">96%</div>
+                <div class="stat-label">Accuracy</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Golfer Profiles Section -->
+    <section id="golfers" class="golfers-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Elite Athletes</h2>
+                <p class="section-subtitle">Powered by Next-Gen Impact Technology</p>
+            </div>
+            
+            <div class="golfers-grid">
+                <!-- Rory McIlroy -->
+                <div class="golfer-card" data-golfer="rory">
+                    <div class="card-media">
+                        <img src="imgs/rory_swing_4.gif" alt="Rory McIlroy Golf Swing" class="golfer-gif">
+                        <div class="media-overlay">
+                            <div class="play-indicator">
+                                <div class="pulse-ring"></div>
+                                <div class="pulse-dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="golfer-header">
+                            <h3 class="golfer-name">Rory McIlroy</h3>
+                            <span class="golfer-rank">World #3</span>
+                        </div>
+                        <div class="golfer-stats">
+                            <div class="stat-row">
+                                <span class="stat-tag">Ball Speed</span>
+                                <span class="stat-value">188 MPH</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-tag">Club Path</span>
+                                <span class="stat-value">+1.2°</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-tag">Spin Rate</span>
+                                <span class="stat-value">2,847 RPM</span>
+                            </div>
+                        </div>
+                        <p class="golfer-description">
+                            Leading the evolution of power and precision with NGI's advanced swing analytics.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Tiger Woods -->
+                <div class="golfer-card" data-golfer="tiger">
+                    <div class="card-media">
+                        <img src="imgs/tiger_swing_4.gif" alt="Tiger Woods Golf Swing" class="golfer-gif">
+                        <div class="media-overlay">
+                            <div class="play-indicator">
+                                <div class="pulse-ring"></div>
+                                <div class="pulse-dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="golfer-header">
+                            <h3 class="golfer-name">Tiger Woods</h3>
+                            <span class="golfer-rank">Legend</span>
+                        </div>
+                        <div class="golfer-stats">
+                            <div class="stat-row">
+                                <span class="stat-tag">Ball Speed</span>
+                                <span class="stat-value">184 MPH</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-tag">Club Path</span>
+                                <span class="stat-value">+0.8°</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-tag">Spin Rate</span>
+                                <span class="stat-value">2,943 RPM</span>
+                            </div>
+                        </div>
+                        <p class="golfer-description">
+                            Mastering the comeback with precision engineering and NGI's recovery analytics.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Scottie Scheffler -->
+                <div class="golfer-card" data-golfer="scottie">
+                    <div class="card-media">
+                        <img src="imgs/scottie_swing_3.gif" alt="Scottie Scheffler Golf Swing" class="golfer-gif">
+                        <div class="media-overlay">
+                            <div class="play-indicator">
+                                <div class="pulse-ring"></div>
+                                <div class="pulse-dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="golfer-header">
+                            <h3 class="golfer-name">Scottie Scheffler</h3>
+                            <span class="golfer-rank">World #1</span>
+                        </div>
+                        <div class="golfer-stats">
+                            <div class="stat-row">
+                                <span class="stat-tag">Ball Speed</span>
+                                <span class="stat-value">186 MPH</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-tag">Club Path</span>
+                                <span class="stat-value">+1.5°</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-tag">Spin Rate</span>
+                                <span class="stat-value">2,764 RPM</span>
+                            </div>
+                        </div>
+                        <p class="golfer-description">
+                            Dominating with consistency and power, backed by next-gen performance data.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Min Woo Lee -->
+                <div class="golfer-card" data-golfer="minwoo">
+                    <div class="card-media">
+                        <img src="imgs/minwoo_swing_8.jpg" alt="Min Woo Lee Golf Swing" class="golfer-image">
+                        <div class="media-overlay">
+                            <div class="scan-line"></div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="golfer-header">
+                            <h3 class="golfer-name">Min Woo Lee</h3>
+                            <span class="golfer-rank">Rising Star</span>
+                        </div>
+                        <div class="golfer-stats">
+                            <div class="stat-row">
+                                <span class="stat-tag">Ball Speed</span>
+                                <span class="stat-value">182 MPH</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-tag">Club Path</span>
+                                <span class="stat-value">+2.1°</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-tag">Spin Rate</span>
+                                <span class="stat-value">2,891 RPM</span>
+                            </div>
+                        </div>
+                        <p class="golfer-description">
+                            Australian power meets cutting-edge analysis for explosive performance gains.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technology Stack</h2>
+                <p class="section-subtitle">AI-Powered Performance Analytics</p>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <div class="icon-sensor"></div>
+                    </div>
+                    <h3 class="tech-title">Impact Sensors</h3>
+                    <p class="tech-description">Real-time data capture at 1000fps for precise swing analysis</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <div class="icon-ai"></div>
+                    </div>
+                    <h3 class="tech-title">AI Analytics</h3>
+                    <p class="tech-description">Machine learning algorithms optimize performance patterns</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <div class="icon-vr"></div>
+                    </div>
+                    <h3 class="tech-title">VR Training</h3>
+                    <p class="tech-description">Immersive practice environments with instant feedback</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">NGI</span>
+                    <span class="logo-accent">GOLF</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#privacy" class="footer-link">Privacy</a>
+                    <a href="#terms" class="footer-link">Terms</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NGI Golf. Next-Gen Impact Golf Technology.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
